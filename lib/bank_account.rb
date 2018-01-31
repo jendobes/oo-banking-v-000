@@ -23,4 +23,6 @@ class BankAccount
   end
 
 end
+
+jennifer = BankAccount.new("baller")
 binding.pry
