@@ -1,3 +1,4 @@
+require 'pry'
 class BankAccount
   attr_reader :name
   attr_accessor :balance, :status
@@ -8,7 +9,7 @@ class BankAccount
     @status = "open"
   end
 
-  def deposit(amt)
+  def deposit()
     @balance + amt
     @balance
   end
