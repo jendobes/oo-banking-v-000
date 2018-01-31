@@ -9,7 +9,7 @@ class BankAccount
     @status = "open"
   end
 
-  def deposit()
+  def deposit(amt)
     @balance + amt
     @balance
   end
@@ -24,3 +24,4 @@ class BankAccount
   end
 
 end
+binding.pry
