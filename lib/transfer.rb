@@ -9,7 +9,7 @@ class Transfer
     @amount = amount
   end
 
-  def valid
+  def valid?
   end
 
   def execute_transaction
@@ -17,5 +17,5 @@ class Transfer
 
   def reverse_transfer
   end
-  
+
 end
